@@ -1,4 +1,10 @@
 h1{
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h2{
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
@@ -9,10 +15,11 @@ p{
     font-family: 'Times New Roman', Times, serif;
 }
 
+/*Code to the header section of each and every page*/
 .resized-image-1{
     display: flex;
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 45px;
     justify-content: space-between;
     margin-right: 10px;
     text-align: right;
@@ -57,3 +64,34 @@ p{
     font-weight: bold;
     color: white  ;
 }
+
+ /*code to the body section of the webpages*/
+ .body{
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color:  white;
+    margin-top: 80px;
+    background-image:  url("photos\Ethiopian air background.png");
+    background-size: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+ }
+
+ .body1{
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color:  white;
+    margin-top: 80px;
+    background-image:  url("photos\Ethiopian air background.png");
+    background-size: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    column-gap: 0px;
+ }
