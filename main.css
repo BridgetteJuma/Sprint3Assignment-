@@ -38,6 +38,8 @@ p{
     z-index: 1000;
     float: left;
     align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .navlinks{
@@ -79,6 +81,8 @@ p{
     justify-content: center;
     align-items: center;
     column-gap: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
  }
 
  .body1{
