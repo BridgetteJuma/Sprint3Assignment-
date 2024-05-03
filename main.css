@@ -73,14 +73,14 @@ p{
     height: calc(100vh - 80px);
     background-color:  white;
     margin-top: 80px;
-    background-image:  url("photos\Ethiopian air background.png");
-    background-size: 80vh;
+    background-image: url("photos\Ethiopian air background.png");
+    background-size: 400vh;
     background-repeat: no-repeat;
     background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 80px;
+    column-gap: 40px;
     padding-left: 20px;
     padding-right: 20px;
  }
