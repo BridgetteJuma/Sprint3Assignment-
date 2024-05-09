@@ -15,6 +15,10 @@ p{
     font-family: 'Times New Roman', Times, serif;
 }
 
+p:hover h1:hover h2:hover{
+    background-color: aliceblue;
+}
+
 /*Code to the header section of each and every page*/
 .resized-image-1{
     display: flex;
@@ -106,4 +110,12 @@ p{
     height: calc(100vh - 80px);
     background-color:  white;
     margin-top: 80px;
+ }
+
+ /*Code for the images on the images page*/
+ .information{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
  }
