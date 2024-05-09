@@ -99,3 +99,11 @@ p{
     align-items: center;
     column-gap: 0px;
  }
+
+ /*Code for the last page bookings*/
+ .bookings{
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color:  white;
+    margin-top: 80px;
+ }
